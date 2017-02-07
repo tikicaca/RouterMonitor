@@ -9,7 +9,7 @@ static byte myip[] = { 192,168,0,35 };
 // gateway ip address
 static byte gwip[] = { 192,168,0,1 };
 
-static byte ftpip[] = { 255,255,255,255 };
+static byte ftpip[] = { 255,255,255,255 };  //set the address to ping
 
 
 static byte netmask[] = { 255,255,255,0 };
