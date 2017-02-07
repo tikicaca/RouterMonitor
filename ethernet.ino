@@ -3,13 +3,13 @@
 #define STATIC 0  // set to 1 to disable DHCP (adjust myip/gwip values below)
 
 // mac address
-static byte mymac[] = { 0x74,0x69,0x69,0x2D,0x30,0x31 };
+static byte mymac[] = { 0x74,0x69,0x69,0x2D,0x30,0x30 };
 // ethernet interface ip address
 static byte myip[] = { 192,168,0,35 };
 // gateway ip address
 static byte gwip[] = { 192,168,0,1 };
 
-static byte ftpip[] = { 144,76,222,40 };
+static byte ftpip[] = { 255,255,255,255 };
 
 
 static byte netmask[] = { 255,255,255,0 };
